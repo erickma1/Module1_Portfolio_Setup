@@ -6,7 +6,7 @@
   <br/>
 
   # My Portfolio: Setup and Mobile First
-  > This is a training project on GitHub flow and Linters
+  
 </div>
 
 
