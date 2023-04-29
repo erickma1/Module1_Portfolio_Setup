@@ -1,19 +1,25 @@
+body {
+  margin: 0;
+}
 
-.main { width: 100%; }
+.main_content {
+  display: flex;
+  background-color: #1c1a19;
+  flex-direction: column;
+  min-width: 375px;
+  min-height: 100vh;
+  align-content: center;
+}
 
 .header {
   width: 100%;
-  padding: 0 10px 10px 10px;
-  margin-top: 0;
+  background-color: #3c3a39;
 }
 
 .top-section {
-  display: flex;
-  flex-wrap: wrap;
   background-color: #3c3a39;
-  min-width: 375px;
-  width: 175px;
-  padding-top: 20px;
+  padding-top: 92px;
+  align-content: center;
 }
 
 .headline {
@@ -24,7 +30,8 @@
   text-align: left;
   background: url("./images/background.png") #1c1a19 no-repeat;
   background-position: 100% 120%;
-  padding: 120px 24px;
+  padding: 120px 24px 120px 24px;
+  gap: 12px;
 }
 
 .headline-title2 {
@@ -32,77 +39,96 @@
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  padding: 10px 0 0 0;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .headline-title {
   color: #ff6b00;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
   line-height: 64px;
+  letter-spacing: 0.37px;
+  margin: 0 0 0 0;
 }
 
 .headline-description {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0;
   text-align: left;
   color: #fff;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .social {
   color: white;
   font-size: 25px;
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 200px;
   border-radius: 0;
-  padding: 21px 0 0 0;
+  padding: 24px 0 0 0;
+}
+
+.social li {
+  margin-right: 8px;
 }
 
 .headline-social {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 170px;
+  width: 200px;
+  height: 40px;
   list-style: none;
-  padding-left: 0;
+  align-items: center;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 .app-bar {
-  margin-left: 21px;
+  position: absolute;
+  width: 375px;
+  height: 92px;
+  align-content: center;
+  background: #3c3a39;
 }
 
 .app-bar ul {
   list-style-type: none;
-  margin-top: 0;
-  padding: 0 0 0 0;
+  padding: 40px 0 0 20px;
   display: flex;
   justify-content: space-between;
 }
 
 .app-bar li {
   list-style-type: none;
+  align-items: center;
+  text-align: center;
 }
 
 .app-bar-item1 {
   color: #fff;
-  padding-top: 0;
   margin: 0;
   justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 
 .app-bar-item2 {
   color: #fff;
-  padding: 0 0 20px 0;
-  margin-right: 3px;
 }
 
 .menu-icon {
   padding-left: 20px;
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 0;
 }
 
 .menu-icon ul {
@@ -110,23 +136,7 @@
   margin: 0;
   padding: 0;
   display: flex;
-}
-
-.menu-icon li {
-  list-style-type: none;
-  margin-right: 0;
-}
-
-.menu-item1 {
-  padding-top: 0;
-  margin: 0;
-  padding-left: 0 20px 10px 0;
-}
-
-.menu-item2 {
-  padding: 0 20px 20px 230px;
-  margin: 0;
-  margin-right: 0;
+  justify-content: space-between;
 }
 
 .logo {
@@ -135,4 +145,51 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+}
+
+.social_icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+}
+
+.git_hov {
+  background-image: url("images/icons/github.svg");
+}
+
+.git_hov:hover {
+  background-image: url("images/icons/git_disabled.svg");
+}
+
+.linked_hov {
+  background-image: url("images/icons/linked.svg");
+}
+
+.linked_hov:hover {
+  background-image: url("images/icons/linked_disabled.svg");
+}
+
+.med_hov {
+  background-image: url("images/icons/med.svg");
+}
+
+.med_hov:hover {
+  background-image: url("images/icons/med_disabled.svg");
+}
+
+.angel_hov {
+  background-image: url("images/icons/angel.svg");
+}
+
+.angel_hov:hover {
+  background-image: url("images/icons/angel_disabled.svg");
+}
+
+.twitter_hov {
+  background-image: url("images/icons/twitter.svg");
+}
+
+.twitter_hov:hover {
+  background-image: url("images/icons/twitter_disabled.svg");
 }
