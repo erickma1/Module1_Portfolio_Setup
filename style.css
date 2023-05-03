@@ -239,15 +239,15 @@ body {
 }
 
 .works-content p {
-  margin-top: 0;
-  margin-bottom: 12px;
+  /* margin-top: 0;
+  margin-bottom: 12px; */
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #091e42;
-  display: grid;
+  float: left;
   order: 1;
 }
 
@@ -260,6 +260,22 @@ body {
   padding: 0;
   gap: 12px;
 }
+.works-content div{
+ display: block;
+ width: 100%;
+}
+
+.works-content >div p{
+  margin: 0;
+  border: 2px solid #8993a4;
+  padding: 10px;
+  color: #091e42;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  margin: 0 10px 10px 0;
+ } 
 
 .works-content li {
   margin: 0;
