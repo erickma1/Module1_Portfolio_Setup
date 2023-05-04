@@ -35,7 +35,12 @@
 
 **My Portfolio** is a project to display my skills and achievements
 
+<<<<<<< HEAD
 ## 🛠 Built With <a name="built-with"></a>
+=======
+
+## 🛠️ Built With <a name="built-with"></a>
+>>>>>>> 0f7cc901d7659d2521b27a9099f6e873009bbb22
 
 ### Tech Stack <a name="tech-stack"></a>
 
