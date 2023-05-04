@@ -549,7 +549,6 @@ button:active {
   border: 0;
   border-bottom: 1px solid #dbc8d7;
   height: 48px;
-  /* padding-left: 16px; */
   margin-top: 0;
   margin-bottom: 23px;
   color: black;
@@ -591,12 +590,9 @@ textarea::placeholder {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  /* display: flex; */
-
   background: #ff6b00;
   color: #fff;
   border: none;
-
   width: 131px;
   height: 48px;
 }
@@ -610,10 +606,9 @@ textarea::placeholder {
   background: #fff;
   display: flex;
   justify-content: center;
-  border-top:1px solid #dfe1e6;
+  border-top: 1px solid #dfe1e6;
   padding-top: 27px;
   padding-bottom: 60px;
-  /* margin-top: 78px; */
 }
 
 .git_hov_ash {
