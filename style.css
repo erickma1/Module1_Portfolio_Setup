@@ -597,6 +597,18 @@ textarea::placeholder {
   height: 48px;
 }
 
+.contact-form button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #ff6b00;
+  border: 2px solid #ff6b00;
+}
+
+.contact-form button:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
 .contact hr {
   margin: 0;
   border: 1px solid #dfe1e6;
