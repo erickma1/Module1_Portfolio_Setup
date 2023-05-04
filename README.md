@@ -1,159 +1,151 @@
+<!-- TABLE OF CONTENTS -->
 <a name="readme-top"></a>
-
-
-<div align="center">
-  
-  <br/>
-
-  # My Portfolio: Setup and Mobile First
-  
-</div>
-
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
+  - [🛠️ Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
+- [⭐ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
+<!-- PROJECT DESCRIPTION -->
 
-# 📖 Microverse project to  <a name="about-project"></a>
+# 📖 [My_Portfolio_Project] <a name="about-project"></a>
 
-**My Portfolio** is a project to display my skills and achievements
+It is a portfolio project to showcase my skills and projects, is a project we have to build in the first week of microverse.
 
-## 🛠 Built With <a name="built-with"></a>
+
+## 🛠️ Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/CSS">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="#">N/A</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="#">N/A</a></li>
-  </ul>
-</details>
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Header**
-- **Toolbar**
-- **Headline Section**
+
+
+- **[using_css_flexbox]**
+- **[responsive_design_for_any_devices]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/erickma1/Module1_Portfolio_Setup)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+
+
 ### Prerequisites
-One of the following browsers is required:
-<ul>
-    <li><a href="https://www.apple.com/safari/">Apple Safari</a></li>
-    <li><a href="https://www.google.com/chrome/">Google Chrome</a></li>
-    <li><a href="https://www.microsoft.com/edge">Microsoft Edge</a></li>
-    <li><a href="https://www.mozilla.org/en-US/firefox">Mozilla Firefox</a></li>
-  </ul>
 
-
-### Setup
+In order to run this project you need:
 
 Clone this repository to your desired folder:
-<br />
-
-'git clone https://github.com/erickma1/Module1_Portfolio_Setup.git'
+### Example commands:
+```code
+  git clone https://github.com/Peter-Kibet/Peter-K-Portfolio
+  cd Peter-K-Portfolio
+```
 
 ### Install
 
-No installation required
+```install
+npm install
+```
+### Test
 
-### Usage
+```test
+npx hint .
+npx eslint .
+```
 
-To run the project, execute the following command:
 
-navigate to your project directory by typing cd <project_folder> in your command prompt
-type index.html
 
-### Run tests
-
-To run tests, run the following command:
-N/A
-
-### Deployment
-
-You can deploy this project using:
-Hosting on a webserver that supports HTML and CSS files
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/erickma1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/eric-mawudeku-55b74883/)
+
+👤 ** Peter Kibet**
+
+- [GitHub](https://github.com/Peter-Kibet)
+- [Twitter](https://twitter.com/Peter_Montana_J)
+- [LinkedIn](https://www.linkedin.com/in/peter-jk-077148195/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BRtNdLwX9S4KxQRQYgnD7qQ%3D%3D)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] Add animation
+- [ ] Add some styles for the project
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Peter-Kibet/Peter-K-Portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ⭐️ Show your support <a name="support"></a>
+<!-- SUPPORT -->
 
-> - Give a STAR⭐️ to support this project
+## ⭐ Show your support <a name="support"></a>
+
+
+- If you like this project follow me on github and wait for more projects.
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microverse for their support
+I would like to thank Microverse for required documentations and instructions
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- LICENSE -->
+
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/Peter-Kibet/Peter-K-Portfolio/blob/contact-form/LICENCE.md) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
