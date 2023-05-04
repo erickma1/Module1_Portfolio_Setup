@@ -239,8 +239,6 @@ body {
 }
 
 .works-content p {
-  /* margin-top: 0;
-  margin-bottom: 12px; */
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -260,22 +258,11 @@ body {
   padding: 0;
   gap: 12px;
 }
-.works-content div{
- display: block;
- width: 100%;
-}
 
-.works-content >div p{
-  margin: 0;
-  border: 2px solid #8993a4;
-  padding: 10px;
-  color: #091e42;
-  font-size: 15px;
-  font-weight: 500;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  margin: 0 10px 10px 0;
- } 
+.works-content div {
+  display: block;
+  width: 100%;
+}
 
 .works-content li {
   margin: 0;
@@ -529,4 +516,91 @@ button:active {
   background-size: cover;
   width: 40px;
   height: 40px;
+}
+
+.contact-section {
+  background-color: #fff;
+}
+
+.contact-article {
+  display: flex;
+  flex-direction: column;
+  padding: 58px 20px 10px 20px;
+  gap: 24px;
+}
+
+.contact-article p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  font-family: 'inter', sans-serif;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input {
+  border: 0;
+  border-bottom: 1px solid #dbc8d7;
+  height: 48px;
+  /* padding-left: 16px; */
+  margin-top: 0;
+  margin-bottom: 23px;
+  color: black;
+}
+
+input::placeholder {
+  font-family: 'inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #979493;
+}
+
+.contact-form textarea {
+  border: 0;
+  background-color: #fbf8f7;
+  padding: 12px 12px 12px 12px;
+  margin-bottom: 24px;
+  height: 114px;
+}
+
+textarea::placeholder {
+  font-family: 'inter', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+}
+
+.contact-button {
+  text-align: center;
+}
+
+.contact-form button {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+
+  background: #ff6b00;
+  color: #fff;
+  border: none;
+
+  width: 131px;
+  height: 48px;
+}
+
+.contact hr {
+  margin: 0;
+  border: 1px solid #dfe1e6;
 }
