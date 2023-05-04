@@ -23,7 +23,6 @@
 It is a portfolio project to showcase my skills and projects, is a project we have to build in the first week of microverse.
 
 
-
 ## 🛠️ Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
