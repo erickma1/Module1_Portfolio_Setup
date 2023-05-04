@@ -622,3 +622,31 @@ textarea::placeholder {
   height: 20px;
   margin-right: 10px;
 }
+
+.linked_ash {
+  background-image: url("images/icons/linkedin.png");
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.angelist_ash {
+  background-image: url("images/icons/angelist.png");
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.twitter_ash {
+  background-image: url("images/icons/twitter.png");
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.medium_ash {
+  background-image: url("images/icons/medium.png");
+  width: 20px;
+  height: 16px;
+  margin-right: 10px;
+}
