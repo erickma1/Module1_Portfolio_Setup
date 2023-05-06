@@ -973,7 +973,7 @@ button:active {
 }
 
 .git {
-  background-image: url("images/icons/github.svg");
+  background-image: url("images/icons/github_change.svg");
 }
 
 .git-footer {
@@ -981,7 +981,7 @@ button:active {
 }
 
 .git:hover {
-  background-image: url("images/icons/github_change.svg");
+  background-image: url("images/icons/github.svg");
   height: 50px;
 }
 
@@ -991,7 +991,7 @@ button:active {
 }
 
 .linked {
-  background-image: url("images/icons/Linkedin.svg");
+  background-image: url("images/icons/Linkedin_change.svg");
 }
 
 .linked-footer {
@@ -999,7 +999,7 @@ button:active {
 }
 
 .linked:hover {
-  background-image: url("images/icons/Linkedin_change.svg");
+  background-image: url("images/icons/Linkedin.svg");
   height: 50px;
 }
 
@@ -1009,7 +1009,7 @@ button:active {
 }
 
 .angel {
-  background-image: url("images/icons/Angel.svg");
+  background-image: url("images/icons/Angel_change.svg");
 }
 
 .angel-footer {
@@ -1017,7 +1017,7 @@ button:active {
 }
 
 .angel:hover {
-  background-image: url("images/icons/Angel_change.svg");
+  background-image: url("images/icons/Angel.svg");
   height: 50px;
 }
 
@@ -1027,7 +1027,7 @@ button:active {
 }
 
 .twitter {
-  background-image: url("images/icons/Twitter.svg");
+  background-image: url("images/icons/Twitter_change.svg");
 }
 
 .twitter-footer {
@@ -1035,7 +1035,7 @@ button:active {
 }
 
 .twitter:hover {
-  background-image: url("images/icons/Twitter_change.svg");
+  background-image: url("images/icons/Twitter.svg");
   height: 50px;
 }
 
@@ -1045,7 +1045,7 @@ button:active {
 }
 
 .medium {
-  background-image: url("images/icons/Medium.svg");
+  background-image: url("images/icons/Medium_change.svg");
 }
 
 .medium-footer {
@@ -1053,7 +1053,7 @@ button:active {
 }
 
 .medium:hover {
-  background-image: url("images/icons/Medium_change.svg");
+  background-image: url("images/icons/Medium.svg");
   height: 50px;
 }
 
