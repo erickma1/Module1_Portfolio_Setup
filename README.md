@@ -134,6 +134,17 @@ Hosting on a webserver that supports HTML and CSS files
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- **project showcase section**
+- **client's feedback**
+- **contact section**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
