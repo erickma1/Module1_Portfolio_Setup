@@ -504,6 +504,7 @@ button:hover {
   background-color: #fff;
   color: #ff6b00;
   border: 2px solid #ff6b00;
+  transition: all 0.5s ease-out;
 }
 
 button:active {
@@ -602,6 +603,7 @@ textarea::placeholder {
   background-color: #fff;
   color: #ff6b00;
   border: 2px solid #ff6b00;
+  transition: all 1s ease-out;
 }
 
 .contact-form button:active {
