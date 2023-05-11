@@ -414,6 +414,11 @@ body {
     padding-right: 87px;
   }
 
+  .main-menu {
+    display: flex;
+    padding-right: 50px;
+  }
+
   .main-menu li {
     font-family: "inter", sans-serif;
     font-style: normal;
@@ -449,6 +454,16 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 16px 0 12px 0;
+  }
+
+  .menu-icon h2 {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    margin: 0;
+    padding-left: 155px;
   }
 
   .works-title hr {
@@ -667,7 +682,6 @@ body {
     display: grid;
     grid-template-rows: auto auto auto auto;
     background-color: white;
-    padding: 24px 1vw 0 0;
     overflow-y: hidden;
   }
 
@@ -681,22 +695,8 @@ body {
     margin-left: 3vw;
   }
 
-  .content-desc ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    gap: 0.75vw;
-    margin-left: 3vw;
-  }
-
-  .content-desc li {
-    background-color: rgba(255, 255, 255, 0.277);
-    padding: 0.625vw;
-    color: #091e42;
-    font-size: 0.9875vmax;
-    font-weight: 500;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
+  .center-content:hover h2 {
+    opacity: 0;
   }
 
   .content-desc p {
@@ -711,8 +711,50 @@ body {
     color: #fff;
   }
 
+  .center-content:hover p {
+    opacity: 0;
+  }
+
+  .content-desc li {
+    background-color: rgba(255, 255, 255, 0.277);
+    padding: 0.625vw;
+    color: #091e42;
+    font-size: 0.9875vmax;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+  }
+
+  .center-content:hover li {
+    opacity: 0;
+  }
+
+  .center-content:hover .top-left button {
+    display: grid;
+    align-self: end;
+  }
+
   .content-desc img {
     width: 100%;
+  }
+
+  .center-content:hover img {
+    display: none;
+  }
+
+  .center-content:hover {
+    align-content: end;
+    background-image: url("images/icons/pro_sec.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .content-desc ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    gap: 0.75vw;
+    margin-left: 3vw;
   }
 
   .content-desc {
