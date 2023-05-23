@@ -96,7 +96,7 @@ body {
     display: none;
   }
 
-   #top-navigation {
+  #top-navigation {
     margin: 34px 35px 0 24px;
     transition: height 0.5s ease-out;
     display: none;
@@ -112,7 +112,6 @@ body {
     margin: 0;
     padding: 0 16px;
   }
-
 
   .menu-icon {
     margin: 0 35px 0 24px;
@@ -456,17 +455,11 @@ body {
     display: none;
   }
 
-   .top-navigation li {
-
+  .top-navigation li {
     display: none;
   }
 
   .top-navigation ul {
-
-    display: none;
-  }
-
-  .dropdown-menu {
     display: none;
   }
 
