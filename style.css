@@ -92,6 +92,28 @@ body {
     margin-right: 8px;
   }
 
+  .top-navigation {
+    display: none;
+  }
+
+  #top-navigation {
+    margin: 34px 35px 0 24px;
+    transition: height 0.5s ease-out;
+    height: 100vh;
+    display: none;
+  }
+
+  #top-navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 0;
+    padding: 0 16px;
+  }
+
   .menu-icon {
     margin: 0 35px 0 24px;
     align-items: center;
@@ -414,11 +436,6 @@ body {
     padding-right: 87px;
   }
 
-  .main-menu {
-    display: flex;
-    padding-right: 50px;
-  }
-
   .main-menu li {
     font-family: "inter", sans-serif;
     font-style: normal;
@@ -433,6 +450,18 @@ body {
   .main-menu ul {
     display: flex;
     align-items: center;
+  }
+
+  .top-navigation {
+    display: none;
+  }
+
+  .top-navigation li {
+    display: none;
+  }
+
+  .top-navigation ul {
+    display: none;
   }
 
   .image-show img {

@@ -8,7 +8,8 @@
       href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Poppins:wght@300&family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+     <link rel="stylesheet" href="style.css" />
+     <script src="js/mobile_menu.js"></script>
     <title>Document</title>
   </head>
 
@@ -18,17 +19,24 @@
         <nav class="menu-icon">
           <h2><a href="index.html">My Logo</a></h2>
           <nav class="dropdown-menu">
-            <img src="images/icons/Union.png" height="12px" width="18px" alt="Menu" />
+            <a href="javascript:void(0);" onclick="menuPop()"><img src="images/icons/Union.png" id="menu-button" height="12px" width="18px" alt="Menu" /></a>
           </nav>
-          <div class="main-menu">
-            <ul>
-              <li>Portfolio</li>
+         <div class="main-menu">
+          <ul>
+            <li>Portfolio</li>
               <li>About</li>
               <li>Contact</li>
-              <li><img src="images/icons/Icon-mail.svg" alt="Menu" /></li>
-            </ul>
-          </div>
-        </nav>
+            <li><img src="images/icons/Icon-mail.svg" alt="Menu" /></li>
+          </ul>
+        </div>
+      </nav>
+     
+      <div id="top-navigation" class="top-navigation">
+        <a href="#works" onclick="menuPop()">Portfolio</a><br><hr>
+        <a href="#about" onclick="menuPop()">About</a><br><hr>
+        <a href="#contact" onclick="menuPop()">Contact</a><br><hr>
+      </div>
+      
       </section>
 
       <section class="headline">
@@ -77,7 +85,7 @@
         </div>
       </section>
 
-      <section class="works">
+      <section id="works" class="works">
         <h2 class="works-title">
           <span> My Recent Works </span>
           <hr />
@@ -265,7 +273,7 @@
         </section>
       </div>
 
-      <section class="about">
+      <section id="about" class="about">
         <section class="about-content">
           <div class="about-header">
             <div class="about-header-content">
@@ -343,7 +351,7 @@
         </section>
       </section>
 
-      <section class="contact">
+      <section id="contact" class="contact">
         <section class="contact-content">
           <p>
             I'm always interested in hearing about new projects, so if you'd
