@@ -92,13 +92,12 @@ body {
     margin-right: 8px;
   }
 
-  /* .top-navigation {
+  .top-navigation {
     display: none;
-  } */
+  }
 
    #top-navigation {
     margin: 34px 35px 0 24px;
-    height: 100vh;
     transition: height 0.5s ease-out;
     display: none;
   }
@@ -463,19 +462,13 @@ body {
   }
 
    .top-navigation li {
-    font-family: "inter", sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 133%;
-    color: #fff;
-    text-align: center;
-    margin-right: 32px;
+
+    display: none;
   }
 
   .top-navigation ul {
-    display: flex;
-    align-items: center;
+
+    display: none;
   }
 
   .dropdown-menu {
