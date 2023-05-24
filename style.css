@@ -916,7 +916,7 @@ body {
     margin-bottom: 16px;
   }
 
-  .desktopView {
+  .popWindow {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
