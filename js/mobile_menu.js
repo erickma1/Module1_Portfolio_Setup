@@ -13,7 +13,56 @@ function menuPop() {
   }
 }
 
-
+const works_content = [
+  {
+    id: 1,
+    worksName: 'Data Dashboard Healthcare',
+    works_content:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'images/icons/pro_sec.svg',
+  },
+  {
+    id: 2,
+    worksName: 'Data Dashboard Healthcare',
+    works_content:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'images/icons/Data_content_image.svg',
+  },
+  {
+    id: 3,
+    worksName: 'Website Portfolio',
+    works_content:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'images/icons/website.svg',
+  },
+  {
+    id: 4,
+    worksName: 'Profesional Art Printing Data',
+    works_content:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'images/icons/professional.svg',
+  },
+  {
+    id: 5,
+    worksName: 'Data Dashboard Healthcare',
+    works_content:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'images/icons/Data_content_image.svg',
+  },
+  {
+    id: 6,
+    worksName: 'Website Portfolio',
+    works_content:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
+    techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    img: 'images/icons/website.svg',
+  },
+];
 
 function mainProject() {
   const presentProject = worksDetail[0];
