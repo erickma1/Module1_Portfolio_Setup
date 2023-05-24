@@ -184,7 +184,7 @@ function popupWin() {
         <a href="#">RUBY</a>
       </li>
     </ul>
-    <div class="desktopView">
+    <div class="popWindow">
       <div id="popup_info">
         <img id="popup-img" src="images/icons/Snapshoot_Portfolio.jpg" alt="Snapshop_Portfolio">
       </div>
