@@ -78,7 +78,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/erickma1/Module1_Portfolio_Setup)
+- [Live Demo Link](https://erickma1.github.io/Module1_Portfolio_Setup)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
