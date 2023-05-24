@@ -513,9 +513,8 @@ body {
     order: 2;
   }
 
-  #popup_info img {
+  .image-show img {
     width: 100%;
-    height: auto;
   }
 
   #popup_info {
@@ -561,17 +560,21 @@ body {
     display: none;
   }
 
-  #popup_info p {
-    margin-top: 24px;
-    font-family: 'inter', serif;
-    font-size: 16px;
-    line-height: 150%;
+  .works-content p {
+    margin-top: 0;
+    margin-bottom: 1.5vw;
+    font-family: "Inter", sans-serif;
     font-style: normal;
-    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 1.25vw;
+    text-align: left;
+    line-height: 140%;
+    color: #091e42;
+    display: grid;
   }
 
-  .image-show img {
-    width: 100%;
+  .top_left1 p {
+    display: none;
   }
 
   .headline-description {
@@ -589,10 +592,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 16px 0 12px 0;
-  }
-
-  .top_left1 p {
-    display: none;
   }
 
   .menu-icon h2 {
@@ -661,19 +660,6 @@ body {
     line-height: 130%;
     margin-top: 0;
     margin-bottom: 1.5vw;
-  }
-
-  .works-content p {
-    margin-top: 0;
-    margin-bottom: 1.5vw;
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.25vw;
-    text-align: left;
-    line-height: 140%;
-    color: #091e42;
-    display: grid;
   }
 
   .content-desc button {
@@ -894,6 +880,11 @@ body {
     display: none;
   }
 
+  #popup_info img {
+    width: 100%;
+    height: auto;
+  }
+
   .popup {
     position: fixed;
     top: 0;
@@ -916,30 +907,21 @@ body {
     padding: 24px;
   }
 
-  
-.titleContent {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  padding: 0;
-}
+  #popup_info p {
+    margin-top: 24px;
+    font-family: 'inter', serif;
+    font-size: 16px;
+    line-height: 150%;
+    font-style: normal;
+    margin-bottom: 16px;
+  }
 
-.titleContent h2 {
-  font-family: 'Crete Round', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 138%;
-  color: #172b4d;
-  margin: 0;
-}
-
-.desktopView {
+  .desktopView {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 
-.center-content:hover {
+  .center-content:hover {
     align-content: end;
     background-image: url("images/icons/pro_sec.svg");
     background-repeat: no-repeat;
@@ -1359,4 +1341,3 @@ button:active {
   background-image: url("images/icons/Medium.svg");
   height: 50px;
 }
-
