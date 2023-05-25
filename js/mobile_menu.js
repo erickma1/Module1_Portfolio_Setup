@@ -106,7 +106,6 @@ function mainProject() {
   return worksHeadline;
 }
 
-
 const showSections = () => {
   const divCard = worksContent.map((item) => {
     if (item.id === 1) {
