@@ -15,11 +15,26 @@ function menuPop() {
 
 const worksContent = [
   {
+    id: 0,
+    worksName: 'Multi-Post Stories',
+    worksContent:
+      `A daily selection of privately personalized reads; no accounts or
+      sign-ups required. has been the industry's standard dummy text
+      ever since the 1500s, when an unknown printer took a standard
+      dummy text.`,
+    techStack: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+    linkToLiveVersion: '#',
+    linkToSource: '#',
+    img: 'images/icons/Works_cont.svg',
+  },
+  {
     id: 1,
     worksName: 'Data Dashboard Healthcare',
     worksContent:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
     techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    linkToLiveVersion: '#',
+    linkToSource: '#',
     img: 'images/icons/pro_sec.svg',
   },
   {
@@ -28,6 +43,8 @@ const worksContent = [
     worksContent:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
     techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    linkToLiveVersion: '#',
+    linkToSource: '#',
     img: 'images/icons/Data_content_image.svg',
   },
   {
@@ -36,6 +53,8 @@ const worksContent = [
     worksContent:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
     techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    linkToLiveVersion: '#',
+    linkToSource: '#',
     img: 'images/icons/website.svg',
   },
   {
@@ -44,6 +63,8 @@ const worksContent = [
     worksContent:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
     techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    linkToLiveVersion: '#',
+    linkToSource: '#',
     img: 'images/icons/professional.svg',
   },
   {
@@ -52,6 +73,8 @@ const worksContent = [
     worksContent:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
     techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    linkToLiveVersion: '#',
+    linkToSource: '#',
     img: 'images/icons/Data_content_image.svg',
   },
   {
@@ -60,31 +83,19 @@ const worksContent = [
     worksContent:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
     techStack: ['HTML', 'Bootstrap', 'Ruby'],
+    linkToLiveVersion: '#',
+    linkToSource: '#',
     img: 'images/icons/website.svg',
   },
 ];
 
-const worksDetail = [
-  {
-    Name: 'projectOne',
-    worksTitle: 'Multi-Post Stories',
-    projectDescription:
-      `A daily selection of privately personalized reads; no accounts or
-      sign-ups required. has been the industry's standard dummy text
-      ever since the 1500s, when an unknown printer took a standard
-      dummy text.`,
-    techStack: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    img: 'images/icons/Works_cont.svg',
-  },
-];
-
 function mainProject() {
-  const presentProject = worksDetail[0];
+  const presentProject = worksContent[0];
   const worksHeadline = `<section class="works-content">
   <img src=${presentProject.img} class="image-placement" alt="The Banner" />
   <div class="text-placement">
-    <h2>${presentProject.worksTitle}</h2>
-    <p>${presentProject.projectDescription}</p>
+    <h2>${presentProject.worksName}</h2>
+    <p>${presentProject.worksContent}</p>
     <ul>
       <li>
         <a href="#">${presentProject.techStack[0]}</a>
@@ -99,69 +110,38 @@ function mainProject() {
         <a href="#">${presentProject.techStack[3]}</a>
       </li>
     </ul>
-    <button id=${presentProject.Name} onclick="buttonClick(this.id)" type="button">See project</button>
+    <button id=${presentProject.id} onclick="buttonClick(this.id)" type="button">See project</button>
   </div>
 </section>`;
 
-  return worksHeadline;
+ return worksHeadline;
 }
 
-const showSections = () => {
-  const divCard = worksContent.map((item) => {
-    if (item.id === 1) {
-      return `<section class="center-content">
-    <section class="content-desc">
-      <img src=${item.img} alt="" />
-      <div class="top-left1">
-      <h2>${item.worksName}</h2>
-      <p>
-       ${item.worksContent}
-      </p>
-      <ul>
-        <li>
-          <a href="#">${item.techStack[0]}</a>
-        </li>
-        <li>
-          <a href="#">${item.techStack[1]}</a>
-        </li>
-        <li>
-          <a href="#">${item.techStack[2]}</a>
-        </li>
-        </ul>
-        <button id=${item.id} onclick="buttonClick(this.id)" type="button">See project</button>
-      </div>
-    </section>
-  </section>`;
-    }
-    return `<section class="center-content">
-  <section class="content-desc">
-    <img src=${item.img} alt="" />
-    <div class="top-left">
-      <h2>${item.worksName}</h2>
-      <p>
-       ${item.worksContent}
-      </p>
-      <ul>
-        <li>
-          <a href="#">${item.techStack[0]}</a>
-        </li>
-        <li>
-          <a href="#">${item.techStack[1]}</a>
-        </li>
-        <li>
-          <a href="#">${item.techStack[2]}</a>
-        </li>
-      </ul>
-      <button id=${item.id} onclick="buttonClick(this.id)" type="button">See project</button>
-    </div>
-  </section>
-</section>`;
-  });
-
-  return divCard;
-};
+const showSections = () => worksContent
+  .filter((item) => item.id !== 0)
+  .map((item) => `<section class="center-content">
+        <section class="content-desc">
+          <img src=${item.img} alt="" />
+          <div class="top-left${item.id === 0 ? '1' : ''}">
+            <h2>${item.worksName}</h2>
+            <p>${item.worksContent}</p>
+            <ul>
+              <li><a href="#">${item.techStack[0]}</a></li>
+              <li><a href="#">${item.techStack[1]}</a></li>
+              <li><a href="#">${item.techStack[2]}</a></li>
+            </ul>
+            <button id=${item.id} onclick="buttonClick(this.id)" type="button">See project</button>
+          </div>
+        </section>
+      </section>`
+  );
 
 function popupWin() {
+  const presentProject = worksContent[1];
+  const {
+    linkToLiveVersion,
+    linkToSource,
+  } = presentProject;
   const pop = `<div class="popup">
   <div class="popup_content">
     <div class="titleContent">
@@ -172,16 +152,13 @@ function popupWin() {
     </div>
     <ul>
       <li>
-        <a href="#">CSS</a>
+        <a href="#">${presentProject.techStack[0]}</a>
       </li>
       <li>
-        <a href="#">HTML</a>
+        <a href="#">${presentProject.techStack[1]}</a>
       </li>
       <li>
-        <a href="#">BOOTSTRAP</a>
-      </li>
-      <li>
-        <a href="#">RUBY</a>
+        <a href="#">${presentProject.techStack[2]}</a>
       </li>
     </ul>
     <div class="popWindow">
@@ -191,8 +168,8 @@ function popupWin() {
       <div class ="all_info">
         <p id="projectDesc"></p>
         <div class="bottom_section">
-          <button id="projectSeven" type="button">See project <img src="images/icons/see_live.png" alt="" class="btnIcon"></button>
-          <button id="projectSeven" type="button">See project <img src="images/icons/git.svg" class="btnIcon"> </button>
+          <a href="${linkToLiveVersion}" target="_blank"><button class="btnIcon">See live <img src="images/icons/see_live.png" alt="" class="btnIcon"></button></a>
+          <a href="${linkToSource}" target="_blank"><button class="btnIcon">See source <img src="images/icons/git.png" alt="" class="btnIcon"></button></a>
         </div>
       </div>
     </div>
@@ -213,14 +190,6 @@ function buttonClick(theId) {
     if (worksContent[project].id === Number(savedInfo)) {
       titleSelect.innerHTML = worksContent[project].worksName;
       paragraphSelect.innerHTML = worksContent[project].worksContent;
-      popWin.style.visibility = 'visible';
-    }
-  });
-
-  worksDetail.forEach((bannerPrj) => {
-    if (bannerPrj.Name === savedInfo) {
-      titleSelect.innerHTML = bannerPrj.worksTitle;
-      paragraphSelect.innerHTML = bannerPrj.projectDescription;
       popWin.style.visibility = 'visible';
     }
   });
