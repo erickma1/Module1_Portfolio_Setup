@@ -114,7 +114,7 @@ function mainProject() {
   </div>
 </section>`;
 
- return worksHeadline;
+  return worksHeadline;
 }
 
 const showSections = () => worksContent
@@ -133,8 +133,7 @@ const showSections = () => worksContent
             <button id=${item.id} onclick="buttonClick(this.id)" type="button">See project</button>
           </div>
         </section>
-      </section>`
-  );
+      </section>`);
 
 function popupWin() {
   const presentProject = worksContent[1];
