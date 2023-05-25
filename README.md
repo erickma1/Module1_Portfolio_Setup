@@ -36,12 +36,9 @@
 
 **My Portfolio** is a project to display my skills and achievements
 
-<<<<<<< HEAD
-## 🛠 Built With <a name="built-with"></a>
-=======
 
 ## 🛠️ Built With <a name="built-with"></a>
->>>>>>> 0f7cc901d7659d2521b27a9099f6e873009bbb22
+
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -78,8 +75,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://erickma1.github.io/Module1_Portfolio_Setup/)
- 
+
+- [Live Demo Link](https://erickma1.github.io/Module1_Portfolio_Setup)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
