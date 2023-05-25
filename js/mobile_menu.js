@@ -13,11 +13,11 @@ function menuPop() {
   }
 }
 
-const works_content = [
+const worksContent = [
   {
     id: 1,
     worksName: 'Data Dashboard Healthcare',
-    works_content:
+    worksContent:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
     techStack: ['HTML', 'Bootstrap', 'Ruby'],
     img: 'images/icons/pro_sec.svg',
@@ -25,7 +25,7 @@ const works_content = [
   {
     id: 2,
     worksName: 'Data Dashboard Healthcare',
-    works_content:
+    worksContent:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
     techStack: ['HTML', 'Bootstrap', 'Ruby'],
     img: 'images/icons/Data_content_image.svg',
@@ -33,7 +33,7 @@ const works_content = [
   {
     id: 3,
     worksName: 'Website Portfolio',
-    works_content:
+    worksContent:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
     techStack: ['HTML', 'Bootstrap', 'Ruby'],
     img: 'images/icons/website.svg',
@@ -41,7 +41,7 @@ const works_content = [
   {
     id: 4,
     worksName: 'Profesional Art Printing Data',
-    works_content:
+    worksContent:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
     techStack: ['HTML', 'Bootstrap', 'Ruby'],
     img: 'images/icons/professional.svg',
@@ -49,7 +49,7 @@ const works_content = [
   {
     id: 5,
     worksName: 'Data Dashboard Healthcare',
-    works_content:
+    worksContent:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
     techStack: ['HTML', 'Bootstrap', 'Ruby'],
     img: 'images/icons/Data_content_image.svg',
@@ -57,10 +57,24 @@ const works_content = [
   {
     id: 6,
     worksName: 'Website Portfolio',
-    works_content:
+    worksContent:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.",
     techStack: ['HTML', 'Bootstrap', 'Ruby'],
     img: 'images/icons/website.svg',
+  },
+];
+
+const worksDetail = [
+  {
+    Name: 'projectOne',
+    worksTitle: 'Multi-Post Stories',
+    projectDescription:
+      `A daily selection of privately personalized reads; no accounts or
+      sign-ups required. has been the industry's standard dummy text
+      ever since the 1500s, when an unknown printer took a standard
+      dummy text.`,
+    techStack: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+    img: 'images/icons/Works_cont.svg',
   },
 ];
 
@@ -92,22 +106,9 @@ function mainProject() {
   return worksHeadline;
 }
 
-const worksDetail = [
-  {
-    Name: 'projectOne',
-    worksTitle: 'Multi-Post Stories',
-    projectDescription:
-      `A daily selection of privately personalized reads; no accounts or
-      sign-ups required. has been the industry's standard dummy text
-      ever since the 1500s, when an unknown printer took a standard
-      dummy text.`,
-    techStack: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    img: 'images/icons/Works_cont.svg',
-  },
-];
 
 const showSections = () => {
-  const divCard = works_content.map((item) => {
+  const divCard = worksContent.map((item) => {
     if (item.id === 1) {
       return `<section class="center-content">
     <section class="content-desc">
@@ -115,7 +116,7 @@ const showSections = () => {
       <div class="top-left1">
       <h2>${item.worksName}</h2>
       <p>
-       ${item.works_content}
+       ${item.worksContent}
       </p>
       <ul>
         <li>
@@ -139,7 +140,7 @@ const showSections = () => {
     <div class="top-left">
       <h2>${item.worksName}</h2>
       <p>
-       ${item.works_content}
+       ${item.worksContent}
       </p>
       <ul>
         <li>
@@ -208,11 +209,11 @@ function buttonClick(theId) {
   const paragraphSelect = document.getElementById('projectDesc');
   const popWin = document.querySelector('.popup');
 
-  works_content.forEach((e, i) => {
+  worksContent.forEach((e, i) => {
     const project = i;
-    if (works_content[project].id === Number(savedInfo)) {
-      titleSelect.innerHTML = works_content[project].worksName;
-      paragraphSelect.innerHTML = works_content[project].works_content;
+    if (worksContent[project].id === Number(savedInfo)) {
+      titleSelect.innerHTML = worksContent[project].worksName;
+      paragraphSelect.innerHTML = worksContent[project].worksContent;
       popWin.style.visibility = 'visible';
     }
   });
