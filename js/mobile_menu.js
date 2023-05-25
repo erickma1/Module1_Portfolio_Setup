@@ -201,6 +201,20 @@ function closed() {
   popWin.style.visibility = 'hidden';
 }
 
+function validateEmail(event) {
+  const email = document.forms[0].elements.Email.value;
+  const res = email.match(/[A-Z]/g);
+  const btn = document.querySelector('form #form_btn');
+  const container = document.querySelector('form #form-btn-container');
+  const child = document.createElement('h2');
+  let msg = '';
+
+
+
+window.onload = () => {
+  document.querySelector('#form').addEventListener('submit', (event) => validateEmail(event));
+};
+
 window.addEventListener('load', () => {
   document.getElementById('multiPost').innerHTML = mainProject();
   document.getElementById('grid-info').innerHTML = showSections().join('');
