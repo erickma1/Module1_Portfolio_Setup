@@ -209,17 +209,17 @@ function validateEmail(event) {
   const child = document.createElement('h2');
   let msg = '';
 
-if(res) {
-  msg = 'Error: Please use only lower case for the email address';
-  event.preventDefault();
-} else return;
-child.innerText = msg;
-child.style.color = 'red';
-container.insertBefore(child, btn);
+  if (res) {
+    msg = 'Error: Please use only lower case for the email address';
+    event.preventDefault();
+  } else return;
+  child.innerText = msg;
+  child.style.color = 'red';
+  container.insertBefore(child, btn);
 
-setTimeout(() => {
-  child.remove();
-}, 4000);
+  setTimeout(() => {
+    child.remove();
+  }, 4000);
 }
 
 window.onload = () => {
