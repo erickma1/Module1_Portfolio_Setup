@@ -215,6 +215,9 @@ function validateEmail(event) {
   } else return;
   child.innerText = msg;
   child.style.color = 'red';
+  child.style.fontFamily = 'inter, sans-serif';
+  child.style.fontSize = '18px';
+  child.style.fontWeight = 'bold';
   container.insertBefore(child, btn);
 
   setTimeout(() => {
