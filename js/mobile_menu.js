@@ -220,6 +220,7 @@ container.insertBefore(child, btn);
 setTimeout(() => {
   child.remove();
 }, 4000);
+}
 
 window.onload = () => {
   document.querySelector('#form').addEventListener('submit', (event) => validateEmail(event));
