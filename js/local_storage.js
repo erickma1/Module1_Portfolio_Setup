@@ -12,3 +12,10 @@ form.addEventListener('keyup', () => {
   localStorage.setItem('formData', JSON.stringify(formData));
 });
 
+window.onload = () => {
+  const formData = localStorage.getItem('formData');
+  const formDataObj = JSON.parse(formData);
+  names.value = formDataObj.names;
+  email.value = formDataObj.email;
+  message.value = formDataObj.message;
+};
