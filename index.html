@@ -10,6 +10,7 @@
     />
      <link rel="stylesheet" href="style.css" />
      <script src="js/mobile_menu.js"></script>
+     <script src="js/local_storage.js"></script>
     <title>Document</title>
   </head>
 
@@ -188,6 +189,7 @@
           >
             <input
               name="FullName"
+              id="name"
               type="text"
               placeholder="Full name"
               required
@@ -196,11 +198,13 @@
             <input
               name="Email"
               type="email"
+              id="email"
               placeholder="Email address"
               required
             />
             <textarea
               name="Message"
+              id="message"
               rows="4"
               cols="50"
               placeholder="Write me something..."
